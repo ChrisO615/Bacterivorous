@@ -3,6 +3,8 @@ nematode <- read.csv("nematode.csv")
 
 Bacterivorous <- nematode$Bacterivorous
 
+Site <- nematode$Site
+
 plot(nematode$Bacterivorous, 
      breaks = 15,
      col = "navy", 
